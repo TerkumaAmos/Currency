@@ -18,6 +18,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                   color: Colors.grey,
                 ),
               ),
+              TextField(),
             ],
           ),
         ));
