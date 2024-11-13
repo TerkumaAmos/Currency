@@ -13,7 +13,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
               Text(
                 "0",
                 style: TextStyle(
-                  fontSize: 45,
+                  fontSize: 55,
                   fontWeight: FontWeight.bold,
                   color: Colors.grey,
                 ),
@@ -23,9 +23,11 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                   color: Colors.black,
                 ),
                 decoration: InputDecoration(
-                    label: Text(
-                  'Please enter amount in usdt',
-                )),
+                  label: Text(
+                    'Please enter amount in usdt',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
               ),
             ],
           ),
