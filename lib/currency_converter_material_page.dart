@@ -19,7 +19,13 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                 ),
               ),
               TextField(
-                style: TextStyle(color: Colors.blue),
+                style: TextStyle(
+                  color: Colors.black,
+                ),
+                decoration: InputDecoration(
+                    label: Text(
+                  'Please enter amount in usdt',
+                )),
               ),
             ],
           ),
