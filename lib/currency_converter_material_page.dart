@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class CurrencyConverterMaterialPage extends StatelessWidget {
@@ -32,7 +33,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(10.0),
+                padding: EdgeInsets.all(10.0),
                 child: TextField(
                   style: const TextStyle(
                     color: Colors.black,
@@ -51,16 +52,18 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                     focusedBorder: border,
                     enabledBorder: border,
                   ),
-                  keyboardType: const TextInputType.numberWithOptions(
+                  keyboardType: TextInputType.numberWithOptions(
                     decimal: true,
                   ),
                 ),
               ),
               TextButton(
                 onPressed: () {
-                  print('button Clciked');
+                  if (kDebugMode) {
+                    print('button clicked');
+                  }
                 },
-                child: Text("Click, Me"),
+                child: Text("Convert"),
               )
             ],
           ),
