@@ -13,7 +13,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
         strokeAlign: BorderSide.strokeAlignOutside,
       ),
       borderRadius: BorderRadius.all(
-        Radius.circular(60),
+        Radius.circular(40),
       ),
     );
 
@@ -32,7 +32,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(10.0),
                 child: TextField(
                   style: const TextStyle(
                     color: Colors.black,
