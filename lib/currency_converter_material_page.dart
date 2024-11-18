@@ -89,7 +89,8 @@ class _CurrencyConverterMaterialPageState
                   ),
                   shape: WidgetStatePropertyAll(
                     RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(5)),
+                      borderRadius: BorderRadius.circular(5),
+                    ),
                   ),
                 ),
                 child: const Text(
